@@ -5,4 +5,7 @@
   <div>
     <input [(ngModel)]="hero.name">
   </div>
+  <ul class="heroes">
+    <li *ngFor="let hero of heroes">{{hero.id}}---{{hero.name}}</li>
+  </ul>
 </div>
